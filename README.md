@@ -3,3 +3,4 @@ This repository hosts the sketch(es) I made for the zine around love that Mehr m
 ## Sketch(es)
 
 - [Love stitch](https://c4rb0rg.github.io/Mehr-Zine-sketches/Love%20stitch/)
+- [Spread love](https://c4rb0rg.github.io/Mehr-Zine-sketches/Spread%20Love%20brush/)
