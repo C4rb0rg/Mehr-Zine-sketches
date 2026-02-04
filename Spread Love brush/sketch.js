@@ -27,7 +27,10 @@ function draw() {
   }
 
   drawButtons();
+  drawInstruction();
 }
+
+/* ---------- BRUSH ---------- */
 
 function drawBrush() {
   let col = random(colors);
@@ -38,6 +41,24 @@ function drawBrush() {
   let jitterY = random(-2, 2);
 
   text("SPREAD LOVE!", mouseX + jitterX, mouseY + jitterY);
+}
+
+/* ---------- INSTRUCTION ---------- */
+
+function drawInstruction() {
+  push();
+  textFont("DM Mono");
+  textSize(12);
+  textAlign(CENTER, CENTER);
+  fill(255);
+  noStroke();
+
+  text(
+    "INTERACT BY PRESSING AND MOVING",
+    width / 2,
+    height - 24
+  );
+  pop();
 }
 
 /* ---------- BUTTONS ---------- */
